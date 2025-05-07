@@ -181,6 +181,6 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler("predict", predict))
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(lambda: asyncio.run(send_prediction(CHAT_ID, symbol)), 'interval', minutes=2)
+    scheduler.add_job(lambda: asyncio.run(send_prediction(CHAT_ID, symbol)), 'interval', minutes=60)
     scheduler.start()
     app.run_polling()

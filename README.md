@@ -62,9 +62,8 @@ A Telegram bot that predicts the price movement of a selected cryptocurrency (e.
 
 ## 📷 Example Output
 
-<p align="center">
+
   ![photo_2025-05-07_20-56-28](https://github.com/user-attachments/assets/37bf575b-c41c-48cd-8668-30cd1732bfbf)
-</p>
 
 ---
 

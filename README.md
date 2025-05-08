@@ -77,9 +77,6 @@ cd crypto-predict-bot
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the bot
-python bot.py
-
 ---
 
 ## 📋 Setup Requirements
@@ -87,6 +84,6 @@ python bot.py
 Before running the bot, make sure to:
 
 1. **Insert your Telegram bot token**  
-   In the `bot.py` file, replace this line:
+   In the `server.py` file, replace this line:
    ```python
    TOKEN = 'YOUR_BOT_TOKEN_HERE'

@@ -71,7 +71,7 @@ A Telegram bot that predicts the price movement of a selected cryptocurrency (e.
 
 ```bash
 # Clone the repo
-git clone https://gitlab.com/your-username/crypto-predict-bot.git
+git clone https://github.com/MetalGrey/Cryptocurrency-Price-Prediction-Telegram-Bot.git
 cd crypto-predict-bot
 
 # Install dependencies
